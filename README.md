@@ -4,6 +4,10 @@ An open-source website and framework for universities and organizations to devel
 
 ## Development Team
 This is being created by Team Polaris as our final project for COMP 426: Modern Web Programming at UNC-CH.
+More details on people and roles are [here](https://github.com/comp426-2022-spring/a99-polaris/docs/team.md).
+
+## Documentation
+See docs.
 
 ## Related Links
 
