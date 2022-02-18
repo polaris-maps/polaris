@@ -7,7 +7,8 @@ This is being created by Team Polaris as our final project for COMP 426: Modern 
 More details on people and roles are [here](https://github.com/comp426-2022-spring/a99-polaris/docs/team.md).
 
 ## Documentation
-See docs.
+More information to come.
+See [the docs](https://github.com/comp426-2022-spring/a99-polaris/docs) for all details.
 
 ## Related Links
 
