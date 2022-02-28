@@ -13,7 +13,8 @@ See [the docs](https://github.com/comp426-2022-spring/a99-polaris/tree/main/docs
 ## Related Links
 
 ### Development Resources
-- [Connecting Node.js backend and React.js frontend](https://github.com/Joao-Henrique/React_Express_App_Medium_Tutorial)
+- [MongoDB/Express/React/Node Stack Connection Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial) (currently using)
+- [Alternate resource on connecting Node.js backend and React.js frontend](https://github.com/Joao-Henrique/React_Express_App_Medium_Tutorial)
 
 ### For Faculty/Staff and Students of UNC-CH
 [UNC Accessible Navigation SharePoint](https://adminliveunc.sharepoint.com/sites/accessiblenavigation)
