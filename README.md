@@ -12,6 +12,11 @@ See [the docs](https://github.com/comp426-2022-spring/a99-polaris/tree/main/docs
 
 ## Related Links
 
+### Development Resources
+- [Instructions on how to connect to MongoDB]()
+- [MongoDB/Express/React/Node (MERN) Stack Connection Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial) (**WILL UPDATE WITH MEAN STACK - SPECIFIC LINK ONCE AN APPROPRIATE TUTORIAL IS IDENTIFIED**)
+- [Alternate resource on connecting Node.js backend and React.js frontend](https://github.com/Joao-Henrique/React_Express_App_Medium_Tutorial)
+
 ### For Faculty/Staff and Students of UNC-CH
 [UNC Accessible Navigation SharePoint](https://adminliveunc.sharepoint.com/sites/accessiblenavigation)
 
