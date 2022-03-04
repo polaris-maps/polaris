@@ -2,7 +2,7 @@
 
 Please note that these ideas are still in very rough form and will be improved, edited, and iterated on as we work together!
 
-**Last update:** 2-14-2022, based on team decisions made during our 2/14/2022 meeting
+**Last update:** 2-28-2022, based on team decisions made during our weekly meeting
 
 ## Components
 - Map
@@ -23,7 +23,14 @@ Please note that these ideas are still in very rough form and will be improved, 
 | ---- | ----------- |
 | 2/15/2022 | (Christine) Add rough sketches to planning repo |
 | 2/21/2022 | (Mia, Elaine, Robert) Initial wireframes; (Joe, Robert) Create template Angular website, research connection to Flask; (Christine) Identify data for base map/locations, research/create template Flask website with connection to MongoDB |
+| 2/28/2022 | Create PR for Current Angular Skeleton and write documentation to install and set up locally (Joe), Get DataBase up and running (Christine, Elaine), Desktop WireFrames (Robert) |
+| 3/6/2022 | Pull request / add Angular code and have demo ready (Joe), Pull request / add Node.js code and connection to Angular and update tutorial (Christine), Watch tutorials and help with ideas/roadblocks (Mia), Helping with setting up the MongoDB database (Elaine), Continue website wireframes (and add desktop feed wireframe) (Robert) |
 | Mid-April 2022 | Demo time!|
+
+## Considerations and Things to Discuss/Determine
+- People will mostly use the phone for navigation
+- Having a star logo in place of writing out Polaris
+- Multiple databases? (Should temporary/permanent issues be kept separate?)
 
 ## Timeline
 1) Research frameworks and UX
