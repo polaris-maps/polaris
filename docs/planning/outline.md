@@ -31,6 +31,8 @@ Please note that these ideas are still in very rough form and will be improved, 
 - People will mostly use the phone for navigation
 - Having a star logo in place of writing out Polaris
 - Multiple databases? (Should temporary/permanent issues be kept separate?)
+- Leaflet is good for front-end
+    - Showing locations with issues
 
 ## Timeline
 1) Research frameworks and UX
