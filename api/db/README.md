@@ -1,3 +1,3 @@
 # db
 
-MongoDB database connection.
+The database schema (model).

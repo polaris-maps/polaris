@@ -13,9 +13,15 @@ See [the docs](https://github.com/comp426-2022-spring/a99-polaris/tree/main/docs
 ## Related Links
 
 ### Development Resources
-- [Instructions on how to connect to MongoDB](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/README.md#how-to-connect-locally-to-mongodb)
-- [MongoDB/Express/React/Node (MERN) Stack Connection Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial) (**WILL UPDATE WITH MEAN STACK - SPECIFIC LINK ONCE AN APPROPRIATE TUTORIAL IS IDENTIFIED**)
-- [Alternate resource on connecting Node.js backend and React.js frontend](https://github.com/Joao-Henrique/React_Express_App_Medium_Tutorial)
+- [Instructions on how to connect to MongoDB for team members of this project](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/README.md#how-to-connect-locally-to-mongodb)
+- [MERN Stack tutorial and detailed example](https://www.positronx.io/build-angular-crud-application-with-nodejs-and-express-rest-api/)
+- [Angular concepts](https://angular.io/guide/architecture)
+- [Mongoose Documentation](https://mongoosejs.com/)
+
+### Testing Resources
+- [Examples]()
+- [Curl command line builder](https://tools.w3cub.com/curl-builder)
+- [JSON Editor](https://jsoneditoronline.org/#)
 
 ### For Faculty/Staff and Students of UNC-CH
 [UNC Accessible Navigation SharePoint](https://adminliveunc.sharepoint.com/sites/accessiblenavigation)
@@ -41,7 +47,7 @@ Your team is responsible for incorporating the following specifications and deli
 	2. Interaction database - details of user interactions (login history, access logs, etc.)
 4. Documentation
 	1. License documenation - Choose a license and include it in the repository just like we have been.
-	1. README.md file with basic descriptiong, installation requirements/instructions, dependency list, run instructions
+	1. README.md file with basic description, installation requirements/instructions, dependency list, run instructions
 	3. `/docs/` directory containing full documentation of every available API endpoint that you create for your app. This directory shoud also house an archive of your planning documentation. 
 	2. Code comments (preferably referring to the documentation)
 	3. User instructions in the interface
@@ -52,4 +58,4 @@ Your team is responsible for incorporating the following specifications and deli
 - Team Polaris of COMP 426 (Spring 2022)
 - [Tar Heels at the Table](https://tarheels.live/tarheelsatthetable/)
 - UNC-CH Undergraduate Senate
-- Dr. Gary Bishop, Dr. Jennifer Diliberto, and Professor John D. Martin III of UNC-CH
+- Professor John D. Martin III, Dr. Gary Bishop, and Dr. Jennifer Diliberto of UNC-CH
