@@ -1,0 +1,27 @@
+curl 'http://localhost:5001/app/'
+curl 'http://localhost:5001/app/invalid/endpoint'
+curl 'http://localhost:5001/app/issue/all'
+
+curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{
+  "location": "Rosenau Hall",
+  "latitude": 35.905877677908045,
+  "longitude": -79.05360645370045,
+  "description": "Automatic door broken",
+  "status": "Closed",
+  "datetimeOpen": 1634359400378,
+  "datetimeClosed": 1635309497378,
+  "datetimePermanent": 0,
+  "votes": 25
+}'
+
+curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{
+  "location": "Peabody Hall",
+  "latitude": 35.91062629670515,
+  "longitude": -79.05362209913692,
+  "description": "Elevator maintenance",
+  "status": "Closed",
+  "datetimeOpen": 1644359400378,
+  "datetimeClosed": 1645309497378,
+  "datetimePermanent": 0,
+  "votes": 30
+}'
