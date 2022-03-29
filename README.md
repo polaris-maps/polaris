@@ -19,7 +19,7 @@ See [the docs](https://github.com/comp426-2022-spring/a99-polaris/tree/main/docs
 - [Mongoose Documentation](https://mongoosejs.com/)
 
 ### Testing Resources
-- [Examples]()
+- [Examples](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/api-tests.txt)
 - [Curl command line builder](https://tools.w3cub.com/curl-builder)
 - [JSON Editor](https://jsoneditoronline.org/#)
 
