@@ -25,7 +25,8 @@ Please note that these ideas are still in very rough form and will be improved, 
 | 2/21/2022 | (Mia, Elaine, Robert) Initial wireframes; (Joe, Robert) Create template Angular website, research connection to Flask; (Christine) Identify data for base map/locations, research/create template Flask website with connection to MongoDB |
 | 2/28/2022 | Create PR for Current Angular Skeleton and write documentation to install and set up locally (Joe), Get DataBase up and running (Christine, Elaine), Desktop WireFrames (Robert) |
 | 3/6/2022 | Pull request / add Angular code and have demo ready (Joe), Pull request / add Node.js code and connection to Angular and update tutorial (Christine), Watch tutorials and help with ideas/roadblocks (Mia), Helping with setting up the MongoDB database (Elaine), Continue website wireframes (and add desktop feed wireframe) (Robert) |
-| 3/20/2022 | Connect Leaflet to the map (Joe), Finish connection to Angular and help with database schema (Christine), Do the database schema (Mia, Elaine, Christine), Look at CSS in Angular (Mia), Continue website wireframes (?) (Robert |
+| 3/20/2022 | Connect Leaflet to the map (Joe), Finish connection to Angular and help with database schema (Christine), Do the database schema (Mia, Elaine, Christine), Look at CSS in Angular (Mia), Continue website wireframes (?) (Robert) |
+| 4/4/2022 | Finish connection between front and back-end for issues asap and write up steps for adding a collection (Christine), Create user database and access logs database (Mia, Elaine, (Robert?)), Styling (Joe) |
 | Mid-April 2022 | Demo time!|
 
 ## Considerations and Things to Discuss/Determine
