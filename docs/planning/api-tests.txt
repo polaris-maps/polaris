@@ -1,0 +1,85 @@
+curl 'http://localhost:5001/app/'
+curl 'http://localhost:5001/app/invalid/endpoint'
+curl 'http://localhost:5001/app/issue/all'
+
+curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{
+  "location": "Rosenau Hall",
+  "latitude": 35.905877677908045,
+  "longitude": -79.05360645370045,
+  "description": "Automatic door broken",
+  "status": "Closed",
+  "datetimeOpen": 1634359400378,
+  "datetimeClosed": 1635309497378,
+  "datetimePermanent": 0,
+  "votes": 25
+}'
+curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{
+  "location": "Peabody Hall",
+  "latitude": 35.91062629670515,
+  "longitude": -79.05362209913692,
+  "description": "Elevator maintenance",
+  "status": "Closed",
+  "datetimeOpen": 1644359400378,
+  "datetimeClosed": 1645309497378,
+  "datetimePermanent": 0,
+  "votes": 30
+}'
+curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{
+  "location": "Caldwell Hall",
+  "latitude": 35.912240358973094,
+  "longitude": -79.04915572985652,
+  "description": "Rooms 103, 105, and 208 are inaccessible",
+  "status": "Permanent",
+  "datetimeOpen": 1648532213018,
+  "datetimeClosed": 0,
+  "datetimePermanent": 1648532213018,
+  "votes": 50
+}'
+curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{
+  "location": "Davie Hall",
+  "latitude": 35.912798294322016,
+  "longitude": -79.04950016778703,
+  "description": "Room 301 is inaccessible",
+  "status": "Permanent",
+  "datetimeOpen": 1648532213015,
+  "datetimeClosed": 0,
+  "datetimePermanent": 1648532213018,
+  "votes": 50
+}'
+curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{
+  "location": "Smith Hall",
+  "latitude": 35.9119469650244,
+  "longitude": -79.05325730627884,
+  "description": "Room 107 is inaccessible",
+  "status": "Permanent",
+  "datetimeOpen": 1648532213016,
+  "datetimeClosed": 0,
+  "datetimePermanent": 1648532213018,
+  "votes": 50
+}'
+
+curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{
+  "location": "Smith Hall",
+  "latitude": 35.9119469650244,
+  "longitude": -79.05325730627884,
+  "description": "Test issue",
+  "status": "Open",
+  "datetimeOpen": 1648532213016,
+  "datetimeClosed": 0,
+  "datetimePermanent": 0,
+  "votes": 1
+}'
+curl -X PUT 'http://localhost:5001/app/issue/update/62429e4b72da611526b603b3' -H "Content-type: application/json" -d '{
+  "location": "Smith Hall",
+  "latitude": 35.9119469650244,
+  "longitude": -79.05325730627884,
+  "description": "Test issue",
+  "status": "Open",
+  "datetimeOpen": 1648532213018,
+  "datetimeClosed": 1648532213018,
+  "datetimePermanent": 0,
+  "votes": 2
+}'
+curl 'http://localhost:5001/app/issue/62429e4b72da611526b603b3'
+curl -X DELETE 'http://localhost:5001/app/issue/delete/62429e4b72da611526b603b3'
+curl 'http://localhost:5001/app/issue/62429e4b72da611526b603b3'
