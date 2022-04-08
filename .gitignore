@@ -1,4 +1,5 @@
 # Repository-specifc
+api/config.env
 client/.angular
 
 # Logs
