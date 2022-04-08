@@ -17,7 +17,7 @@ See [the docs](https://github.com/comp426-2022-spring/a99-polaris/tree/main/docs
 - [MERN Stack tutorial and detailed example](https://www.positronx.io/build-angular-crud-application-with-nodejs-and-express-rest-api/)
 - [Angular concepts](https://angular.io/guide/architecture)
 - [Mongoose Documentation](https://mongoosejs.com/)
-- **in progress**: [Adding a schema (i.e., issue, user, or other type of record) to the application](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/steps.md)
+- **in progress**: [Adding a schema (i.e., issue, user, or other type of record) to the application](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/README.md)
 
 ### Testing Resources
 - [Examples](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/api-tests.txt)

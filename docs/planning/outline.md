@@ -2,7 +2,7 @@
 
 Please note that these ideas are still in very rough form and will be improved, edited, and iterated on as we work together!
 
-**Last update:** 2-28-2022, based on team decisions made during our weekly meeting
+**Last update:** 4-7-2022, based on team decisions made during our weekly meeting
 
 ## Components
 - Map
