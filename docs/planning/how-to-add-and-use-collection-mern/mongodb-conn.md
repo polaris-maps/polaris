@@ -1,4 +1,7 @@
 # How to connect locally to MongoDB (Atlas)
+
+**(NOTE: THIS IS OUTDATED AND WILL BE UPDATED)**
+
 **IMPORTANT:** When committing changes, please make sure **NOT** to add files with secret information similar to that in `config.env` to the changes to be committed. If needed, add the files to the list in the `.gitignore`. Pushing commits with secret information **will** accidentally and irrevocably expose the information unless you happen to be working on a repository fork that can be deleted entirely. If this does happen to you, to ensure security, please notify the groupchat. Although the data for this project are open, it would be best to change your password to ensure security. 
 
 ## Basic Connection
