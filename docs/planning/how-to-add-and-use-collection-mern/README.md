@@ -1,17 +1,18 @@
 # How to Add and Use a New Collection of Database Records in This MERN App
 
-## Part 0: Set up connection to MongoDB (NOTE: THIS IS OUTDATED AND WILL BE UPDATED)
+## Part 0: Set up connection to MongoDB
 See [this file](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/mongodb-conn.md) (mongodb-conn.md) for instructions on setting up a preliminary connection to MongoDB!
 
-## Part 1: Back end (NOTE: THIS IS OUTDATED AND WILL BE UPDATED)
-1. Create a new JS file defining the schema in the [api/db folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/db). Feel free to model it after [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/db/issue.js).
+## Part 1: Back end
+1. Create a new JS file defining the schema in the [api/schemas folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/schemas). Feel free to model it after [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/schemas/issue.js) or [user.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/schemas/user.js).
     - Note: Please make sure to specify a different collection than 'issues', to ensure that the records are kept separate within the database.
-2. Create a corresponding JS file defining the API endpoints in the [api/routes folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/routes). Feel free to model it after the [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/db/issue.js) file in that folder.
-3. Give the API access to your routes by add the following line to [server.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/server.js) under the line reading `// TODO: add routes here`, replacing `<yourRoutes>` with the name of your routes:
+2. Create a corresponding JS file defining the appropriate database connection in the [api/connections folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/connections). Feel free to model it after the [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/connections/issue.js) file or the [user.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/connections/user.js) file in that folder.
+3. Create a corresponding JS file defining the API endpoints in the [api/routes folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/routes). Feel free to model it after the [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/routes/issue.js) file or the [user.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/routes/user.js) file in that folder.
+4. Give the API access to your routes by add the following line to [server.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/server.js) under the line reading `// TODO: add routes here`, replacing `<yourRoutes>` with the name of your routes:
     ```
     app.use(<yourRoutes>)
     ```
-4. Test and document your API endpoints. 
+5. Test and document your API endpoints. 
     - Testing: See [api-tests.txt](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/api-tests.txt) for examples.
     - Documentation: more to come!
 
