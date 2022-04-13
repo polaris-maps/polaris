@@ -1,7 +1,7 @@
 # How to Add and Use a New Collection of Database Records in This MERN App
 
 ## Part 0: Set up connection to MongoDB
-See [this file (mongodb-conn.md)](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/mongodb-conn.md) for instructions on setting up a preliminary connection to MongoDB!
+See [this file](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/mongodb-conn.md) (mongodb-conn.md) for instructions on setting up a preliminary connection to MongoDB!
 
 ## Part 1: Back end
 1. Create a new JS file defining the schema in the [api/db folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/db). Feel free to model it after [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/db/issue.js).
