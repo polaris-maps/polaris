@@ -6,7 +6,7 @@ const express = require("express");
 const issueRoutes = express.Router();
 
 // This will help us connect to the database
-let Issue = require("../db/issue");
+let Issue = require("../connections/issue");
 
 // Get a list of all the issues.
 issueRoutes.route("/app/issue/all").get(function (req, res, next) {
@@ -42,7 +42,7 @@ issueRoutes.route("/app/issue/add").post(function (req, res, next) {
 });
 
 // Update an issue by id.
-issueRoutes.route("/app/issue/update/:id").put(function (req, res, next) {
+issueRoutes.route("/app/issue/update/:id").patch(function (req, res, next) {
     Issue.findByIdAndUpdate(req.params.id, {
         $set: req.body
     }, (error, data) => {

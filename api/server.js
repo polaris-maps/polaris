@@ -1,27 +1,32 @@
 const express = require("express");
 const path = require("path");
-const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
+const dotEnv = require("dotenv");
+dotEnv.config({ path: "./config.env" });
+
 const issueRoutes = require("./routes/issue")
+const userRoutes = require("./routes/user")
 const port = process.env.PORT || 5001;
 const app = express();
 
 const HTTP_STATUS_NOT_FOUND = 404;
 
-require("dotenv").config({ path: "./config.env" });
+// TO-DO: Put logging middleware here (use process.env.ATLAS_URI_LOGS to connect)
 
-// TODO: refine
 
-mongoose
-    .connect(process.env.ATLAS_URI)
-    .then((x) => {
-        console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
-    })
-    .catch((err) => {
-        console.error('Error connecting to mongo', err.reason)
-    })
+// default MongoDB connection; leave commented for now
+// const mongoose = require("mongoose");
+// mongoose
+//     .connect(process.env.ATLAS_URI)
+//     .then((x) => {
+//         console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
+//     })
+//     .catch((err) => {
+//         console.error('Error connecting to mongo', err.reason)
+//         console.error(err)
+//     })
 
 app.use(
   bodyParser.urlencoded({
@@ -41,7 +46,10 @@ app.get("/app/", (req, res, next) => {
 });
 
 app.use(express.json());
+
+// TODO: add routes here
 app.use(issueRoutes);
+app.use(userRoutes);
  
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
