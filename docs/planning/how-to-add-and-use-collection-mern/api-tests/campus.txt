@@ -1,0 +1,23 @@
+curl 'http://localhost:5001/app/campus/all'
+
+curl -X POST 'http://localhost:5001/app/campus/add' -H "Content-type: application/json" -d '{
+  "name": "UNC Chapel Hill",
+  "buildings": [
+
+  ]
+}'
+
+curl -X PATCH 'http://localhost:5001/app/campus/update/625e23c4c0bf7ff831123cee' -H "Content-type: application/json" -d '{
+  "buildings": [
+
+  ]
+}'
+curl 'http://localhost:5001/app/campus/625e23c4c0bf7ff831123cee'
+
+curl -X POST 'http://localhost:5001/app/campus/add' -H "Content-type: application/json" -d '{
+  "name": "test campus",
+  "buildings": [
+    "test building"
+  ]
+}'
+curl -X DELETE 'http://localhost:5001/app/campus/delete/625e23dec0bf7ff831123cf0'

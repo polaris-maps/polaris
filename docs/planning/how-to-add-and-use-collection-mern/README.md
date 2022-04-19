@@ -13,7 +13,7 @@ See [this file](https://github.com/comp426-2022-spring/a99-polaris/blob/main/doc
     app.use(<yourRoutes>)
     ```
 5. Test and document your API endpoints. 
-    - Testing: See [api-tests.txt](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/api-tests.txt) for examples.
+    - Testing: See [api-tests/issue.txt](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/api-tests/issue.txt) for examples.
     - Documentation: more to come!
 
 ## Part 2: Front end
