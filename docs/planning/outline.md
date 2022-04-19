@@ -54,7 +54,7 @@ Please note that these ideas are still in very rough form and will be improved, 
 3) Identify API/data to use as the base map
     - This must have the capability to avoid certain places when calculating directions
        - I (Christine) will update group on current progress with this research
-    - Potential API: [openrouteservece](https://openrouteservice.org/)
+    - Potential API: [openrouteservice](https://openrouteservice.org/)
         - [openrouteservice-js](https://github.com/GIScience/openrouteservice-js)
 4) Create accessible layer
 5) Create elevation layer
