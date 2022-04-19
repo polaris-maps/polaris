@@ -28,7 +28,9 @@ Please note that these ideas are still in very rough form and will be improved, 
 | 3/20/2022 | Connect Leaflet to the map (Joe), Finish connection to Angular and help with database schema (Christine), Do the database schema (Mia, Elaine, Christine), Look at CSS in Angular (Mia), Continue website wireframes (?) (Robert) |
 | 4/7/2022 (Thursday) | Finish connection between front and back-end for issues asap and write up steps for adding a collection (Christine), Create user database and access logs database (Mia, Elaine, (Robert?)), Styling (Joe) |
 | 4/12/2022 (Tuesday) | Implementing front-end (Joe), Implementing db connection routes and connecting to HTML (Christine, Elaine?, Robert?), Create user database (Mia), Create access logs database (Elaine?), Styling, documentation (Robert) |
-| Mid-April 2022 | Demo time!|
+| 4/18/2022 | Implementing front-end (Joe), Implementing db connection routes and connecting to HTML (Christine), Create user database and connect to front-end (Mia), Implement logging (Elaine), Video planing, documentation (Robert) |
+| 4/25/2022 | Map (Joe), New report page, map (Christine), Create user database and connect to front-end (Mia), Implement logging (Elaine), Video planing, documentation (Robert) |
+| 4/30/2022 | Demo time! |
 
 ## Considerations and Things to Discuss/Determine
 - People will mostly use the phone for navigation
