@@ -1,0 +1,92 @@
+name,abbreviation,defaultLatitude,defaultLongitude,campus
+Abernathy,AB,35.91167621,-79.05426351,UNC Chapel Hill
+Alumni,AL,35.91342273,-79.05093055,UNC Chapel Hill
+Art Studio Building,LA,35.93180563,-79.05819518,UNC Chapel Hill
+Hanes Art Center,AR,35.9125865,-79.05442015,UNC Chapel Hill
+Battle,BA,35.91415427,-79.05311778,UNC Chapel Hill
+Beard (Pharmacy),BE,35.90808068,-79.05351254,UNC Chapel Hill
+Bioinformatics,BF,35.90197847,-79.05343568,UNC Chapel Hill
+Berryhill,BH,35.90719112,-79.05167481,UNC Chapel Hill
+Bingham,BI,35.91141254,-79.04947755,UNC Chapel Hill
+Bondurant Hall,BN,35.90658092,-79.05217631,UNC Chapel Hill
+Caldwell,CW,35.9130133,-79.04906862,UNC Chapel Hill
+Carmichael Arena,CG,35.91051313,-79.04489252,UNC Chapel Hill
+Carrington Hall,CN,35.90753218,-79.05174966,UNC Chapel Hill
+Carroll,CA,35.91108198,-79.05197405,UNC Chapel Hill
+Carolina Hall,CH,35.91212035,-79.04982895,UNC Chapel Hill
+Chapman Hall,CP,35.91077251,-79.05269867,UNC Chapel Hill
+Clinical Sciences (Burnett-Womack),CS,35.90557173,-79.05231047,UNC Chapel Hill
+Cobb,CB,35.91307,-79.04442001,UNC Chapel Hill
+Coker,CO,35.90912329,-79.05147457,UNC Chapel Hill
+Craige-North,CE,35.90426235,-79.04577158,UNC Chapel Hill
+Davie,DA,35.91355703,-79.04939819,UNC Chapel Hill
+Center for Dramatic Art,DC,35.91264593,-79.04412952,UNC Chapel Hill
+Dental (Brauer Hall),DN,35.90545385,-79.05320847,UNC Chapel Hill
+Dey Hall,DE,35.91065508,-79.05074733,UNC Chapel Hill
+Fred Brooks Hall at Sitterson Hall,FB,35.9105914,-79.05299467,UNC Chapel Hill
+Fetzer Hall,FH,35.90972921,-79.04690279,UNC Chapel Hill
+Gardner,GA,35.91106971,-79.05091848,UNC Chapel Hill
+Gerrard,GR,35.91236579,-79.05140675,UNC Chapel Hill
+FedEx Global Education,GC,35.90891256,-79.05404701,UNC Chapel Hill
+Graham Memorial,GM,35.91507994,-79.05141814,UNC Chapel Hill
+Greenlaw,GL,35.91119327,-79.04910816,UNC Chapel Hill
+Genome Sciences Building,GS,35.9084755,-79.05079988,UNC Chapel Hill
+Hamilton Hall,HM,35.91225635,-79.04874762,UNC Chapel Hill
+Hanes Hall,HN,35.91100114,-79.05135764,UNC Chapel Hill
+Hardin,HD,35.90405175,-79.04612976,UNC Chapel Hill
+Hickerson House,HK,35.91553837,-79.04790399,UNC Chapel Hill
+Hill,HI,35.91279783,-79.0532612,UNC Chapel Hill
+Michael Hooker Research Center,HC,35.90567863,-79.05417889,UNC Chapel Hill
+Horton,HT,35.90335531,-79.04363647,UNC Chapel Hill
+"Hospital, UNC",HP,35.90412856,-79.04950968,UNC Chapel Hill
+Howell,HO,35.91355774,-79.05010697,UNC Chapel Hill
+Kerr Hall (Pharmacy),KE,35.90720332,-79.05380679,UNC Chapel Hill
+Kenan Laboratories,KL,35.90913912,-79.05112771,UNC Chapel Hill
+Kenan Music Building,KM,35.91208391,-79.05447545,UNC Chapel Hill
+Knapp,KN,35.91040251,-79.04193991,UNC Chapel Hill
+Koury Residence Hall,KR,35.90371738,-79.04325362,UNC Chapel Hill
+Ackland,AC,35.91280011,-79.05484564,UNC Chapel Hill
+Davis Library,LD,35.9112652,-79.04805499,UNC Chapel Hill
+Lenoir,LE,35.91067737,-79.0487036,UNC Chapel Hill
+Wilson Library,LG,35.90962564,-79.0497277,UNC Chapel Hill
+U/Grad Library (House),LU,35.90976007,-79.04893525,UNC Chapel Hill
+Mary Ellen Jones,MJ,35.90381625,-79.05342097,UNC Chapel Hill
+Manning,MA,35.91127871,-79.04920291,UNC Chapel Hill
+McColl Building,MB,35.89985097,-79.04610638,UNC Chapel Hill
+McGavran-Greenberg (Public Health),MC,35.90644652,-79.05447547,UNC Chapel Hill
+MacNider,MD,35.90561335,-79.05255745,UNC Chapel Hill
+Morehead Laboratory,ML,35.90914112,-79.05183551,UNC Chapel Hill
+Mitchell,MT,35.90786593,-79.05227791,UNC Chapel Hill
+Murphey,MU,35.91096698,-79.04958768,UNC Chapel Hill
+Murray Hall,MY,35.90991379,-79.05173967,UNC Chapel Hill
+Naval ROTC Armory,NA,35.90925612,-79.05293641,UNC Chapel Hill
+New East,NE,35.91288843,-79.05023964,UNC Chapel Hill
+Neuroscience Research Building,NR,35.90352985,-79.05503774,UNC Chapel Hill
+New West,NW,35.91206902,-79.05240044,UNC Chapel Hill
+Paul Green Theatre,PG,35.91205039,-79.04375097,UNC Chapel Hill
+Peabody,PE,35.91069053,-79.0536007,UNC Chapel Hill
+Person,PS,35.91270702,-79.05248202,UNC Chapel Hill
+Phillips,PH,35.91099579,-79.05243537,UNC Chapel Hill
+Morehead Planetarium,PA,35.91431166,-79.0505529,UNC Chapel Hill
+Playmaker's Theatre,PT,35.9121985,-79.05030709,UNC Chapel Hill
+Pre-Clinic Ed (Bullitt-Brinkhous Bldg),CL,35.90592415,-79.05170747,UNC Chapel Hill
+Rosenau (Public Health),RO,35.906114,-79.05369339,UNC Chapel Hill
+Rizzo Center,RZ,35.9126604,-79.00472808,UNC Chapel Hill
+Stone Center,SC,35.90812744,-79.05015284,UNC Chapel Hill
+Smith,SM,35.91214396,-79.05318804,UNC Chapel Hill
+Sitterson,SN,35.91005148,-79.05330287,UNC Chapel Hill
+Steele,ST,35.91176062,-79.05037689,UNC Chapel Hill
+Student Union,SU,35.91016396,-79.04755326,UNC Chapel Hill
+Swain Hall,SW,35.91228146,-79.05369471,UNC Chapel Hill
+Taylor Hall (not Ram Village),TH,35.90318563,-79.05357221,UNC Chapel Hill
+Tate Turner Kuralt,TT,35.9080395,-79.05441847,UNC Chapel Hill
+Van-Hecke-Wettach,VW,35.90951559,-79.04246251,UNC Chapel Hill
+Venable Hall,VN,35.91028148,-79.05113197,UNC Chapel Hill
+Wilson,WI,35.90867606,-79.05190145,UNC Chapel Hill
+Medical School Wing B,WB,35.90628602,-79.04985252,UNC Chapel Hill
+Medical School Wing C,WC,35.90649856,-79.04963297,UNC Chapel Hill
+Medical School Wing D,WD,35.90628772,-79.04903826,UNC Chapel Hill
+Medical School Wing E,WE,35.90654346,-79.04997268,UNC Chapel Hill
+Woollen Gym,WG,35.91075035,-79.04612666,UNC Chapel Hill
+Campus Y,YC,35.91233181,-79.05134655,UNC Chapel Hill
+Student Stores,,35.90973266,-79.04826023,UNC Chapel Hill

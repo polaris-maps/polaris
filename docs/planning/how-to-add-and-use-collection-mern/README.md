@@ -13,7 +13,7 @@ See [this file](https://github.com/comp426-2022-spring/a99-polaris/blob/main/doc
     app.use(<yourRoutes>)
     ```
 5. Test and document your API endpoints. 
-    - Testing: See [api-tests.txt](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/api-tests.txt) for examples.
+    - Testing: See [api-tests/issue.txt](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/api-tests/issue.txt) for examples.
     - Documentation: more to come!
 
 ## Part 2: Front end
@@ -22,6 +22,6 @@ See [this file](https://github.com/comp426-2022-spring/a99-polaris/blob/main/doc
     ng g s service/<service name>/<service name>
     ```
 2. Define the service class as a new file in the newly created folder within the service folder. Feel free to model it after [issue.ts](https://github.com/comp426-2022-spring/a99-polaris/blob/main/client/src/app/service/issue/issue.ts).
-3. Edit the files created in Part 2, Step 1 as appropriate, modeling them after [issue.service.ts](https://github.com/comp426-2022-spring/a99-polaris/blob/main/client/src/app/service/issue/issue.service.ts) and [issue.service.spec.ts](https://github.com/comp426-2022-spring/a99-polaris/blob/main/client/src/app/service/issue/issue.service.spec.ts) as appropriate/needed.
+3. Edit the `<service name>.service.ts` file created in Part 2, Step 1 as appropriate, modeling it after [issue.service.ts](https://github.com/comp426-2022-spring/a99-polaris/blob/main/client/src/app/service/issue/issue.service.ts) as appropriate/needed.
 4. Implement the appropriate methods within the various components using the defined service. An example (currently in progress) is [notifications.component.ts](https://github.com/comp426-2022-spring/a99-polaris/blob/main/client/src/app/notifications/notifications.component.ts).
 5. Edit the HTML in the components to use the implemented component methods. An example is [notifications.component.html](https://github.com/comp426-2022-spring/a99-polaris/blob/main/client/src/app/notifications/notifications.component.html). For further examples of how the HTML can use the implemented component methods, feel free to refer to the bottom of [MERN Stack tutorial and detailed example](https://www.positronx.io/build-angular-crud-application-with-nodejs-and-express-rest-api/) and search online!

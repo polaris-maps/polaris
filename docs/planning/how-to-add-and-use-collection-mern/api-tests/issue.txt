@@ -1,5 +1,3 @@
-curl 'http://localhost:5001/app/'
-curl 'http://localhost:5001/app/invalid/endpoint'
 curl 'http://localhost:5001/app/issue/all'
 
 curl -X POST 'http://localhost:5001/app/issue/add' -H "Content-type: application/json" -d '{

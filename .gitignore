@@ -1,6 +1,8 @@
 # Repository-specifc
 api/config.env
 client/.angular
+sandbox/workspace*
+sandbox/bulk-load/actual
 
 # Logs
 logs
