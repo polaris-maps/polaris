@@ -1,7 +1,7 @@
 # Repository-specifc
 api/config.env
 client/.angular
-sandbox/workspace.*
+sandbox/workspace*
 
 # Logs
 logs
