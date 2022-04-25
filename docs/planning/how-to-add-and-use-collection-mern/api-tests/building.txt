@@ -1,0 +1,32 @@
+curl 'http://localhost:5001/app/building/all'
+
+curl -X POST 'http://localhost:5001/app/building/add/multiple' -H "Content-type: application/json" -d '[
+    {
+        "name": "Abernathy",
+        "abbreviation": "AB",
+        "defaultLatitude": "35.91167621",
+        "defaultLongitude": "-79.05426351",
+        "campus": "test"
+    },
+    {
+        "name": "Alumni",
+        "abbreviation": "AL",
+        "defaultLatitude": "35.91342273",
+        "defaultLongitude": "-79.05093055",
+        "campus": "test"
+    }
+]'
+
+curl -X POST 'http://localhost:5001/app/building/add' -H "Content-type: application/json" -d '{
+    "name": "Playmakers Theatre",
+    "abbreviation": "PT",
+    "defaultLatitude": "35.9121985",
+    "defaultLongitude": "-79.05030709",
+    "campus": "test"
+}'
+
+curl -X PATCH 'http://localhost:5001/app/building/update/625e3884ed5af0a44aad476b' -H "Content-type: application/json" -d '{
+  "name": "Abernathy Hall"
+}'
+curl 'http://localhost:5001/app/building/625e3884ed5af0a44aad476b'
+curl -X DELETE 'http://localhost:5001/app/building/delete/625e3884ed5af0a44aad476b'
