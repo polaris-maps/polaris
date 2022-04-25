@@ -25,3 +25,11 @@ TBD. Possible roles:
     3. Database lead
     4. Design lead
     5. Etc.
+
+| Member            | Role           | 
+| ----------------- | ------------------- | 
+| Elaine Dong       | |
+| Christine Mendoza | | 
+| Joe Spencer       | | 
+| Robert Susewell   | | 
+| Mia Ziade         | | 
