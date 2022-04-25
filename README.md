@@ -1,3 +1,9 @@
+INTRODUCTION
+----------------------------------------------------------------------
+
+Polaris is an open source project created to display an open source website for Univeristy of North Carolina at Chapel Hill students and employees enabling more accessibilty options for the University. Polaris is able to display potential and current accessbility hazards through the interface and the use of its Users. Through interaction with the wbesite users will have the ability to notify other students and faculty of disruptions of the campus such as elevator being down in one of the buildings. Users will also have the ability to favorite certain locations and upvote another's person notification so that popular places would be more well known about current issues. There will also be feedback page to notify our team of issues with the website. Below will be the Requirements, Instructions, and other Aspectes
+
+
 # polaris
 
 An open-source website and framework for universities and organizations to develop campus maps that crowdsource data on accessible routes and potential obstacles.
