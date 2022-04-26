@@ -13,6 +13,20 @@ DEPENDENCY LIST
 ----------------------------------------------------------------------
 
 
+Bootstrap-Icons		Version: 1.8.1
+Node-fetch			Version: 3.2.3
+Body-Parser			Version: 1.19.2
+Cors:				Version: 2.8.5
+Dotenv:				Version: 16.0.0
+Express:			Version: 4.17.3
+Mongodb:			Version: 4.4.0
+Nodemon:			Version: 2.0.15
+@Angular/animations Version: 13.0.0
+@Angular/common		Version: 13.0.0
+@Angular/compiler	Version: 13.0.0
+@Angular/core
+
+
 INSTUCTIONS
 ----------------------------------------------------------------------
 
