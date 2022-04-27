@@ -1,16 +1,45 @@
-# polaris
+INTRODUCTION
+----------------------------------------------------------------------
 
-An open-source website and framework for universities and organizations to develop campus maps that crowdsource data on accessible routes and potential obstacles.
 
-## Development Team
-This is being created by Team Polaris as our final project for COMP 426: Modern Web Programming at UNC-CH.
-More details on people and roles are [here](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/team.md).
+Polaris is an open source project created to display an open source website for Univeristy of North Carolina at Chapel Hill students and employees enabling more accessibilty options for the University. Polaris is able to display potential and current accessbility hazards through the interface and the use of its Users. Through interaction with the website users will have the ability to notify other students and faculty of disruptions of the campus such as elevator being down in one of the buildings. Users will also have the ability to favorite certain locations and upvote another's person notification so that popular places would be more well known about current issues. There will also be feedback page to notify our team of issues with the website. Below will be the instructions and contributors. 
 
-## Documentation
-More information to come.
-See [the docs](https://github.com/comp426-2022-spring/a99-polaris/tree/main/docs) for all details.
 
-## Related Links
+REQUIREMENTS FOR RUNNING
+----------------------------------------------------------------------
+
+
+DEPENDENCY LIST
+----------------------------------------------------------------------
+
+
+Bootstrap-Icons		Version: 1.8.1
+Node-fetch			Version: 3.2.3
+Body-Parser			Version: 1.19.2
+Cors:				Version: 2.8.5
+Dotenv:				Version: 16.0.0
+Express:			Version: 4.17.3
+Mongodb:			Version: 4.4.0
+Nodemon:			Version: 2.0.15
+@Angular/animations Version: 13.0.0
+@Angular/common		Version: 13.0.0
+@Angular/compiler	Version: 13.0.0
+@Angular/core
+
+
+INSTUCTIONS
+----------------------------------------------------------------------
+
+
+
+DEVELOPMENT TEAM
+----------------------------------------------------------------------
+
+The Polaris Project was created by Team Polaris as our final project for COMP 426: Modern Web Programming at UNC-CH. Below is the link to the roles and duties of each person who contributed.
+
+https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/team.md
+
+
 
 ### Development Resources
 - [Instructions on how to connect to MongoDB for team members of this project](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/README.md#how-to-connect-locally-to-mongodb)
@@ -19,33 +48,13 @@ See [the docs](https://github.com/comp426-2022-spring/a99-polaris/tree/main/docs
 - [Mongoose Documentation](https://mongoosejs.com/)
 - **in progress**: [Adding a schema (i.e., issue, user, or other type of record) to the application](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/README.md)
 
-### Testing Resources
-- [Examples](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/api-tests.txt)
-- [Curl command line builder](https://tools.w3cub.com/curl-builder)
-- [JSON Editor](https://jsoneditoronline.org/#)
 
 ### For Faculty/Staff and Students of UNC-CH
 [UNC Accessible Navigation SharePoint](https://adminliveunc.sharepoint.com/sites/accessiblenavigation)
 
-## Deliverables
-A GitHub repository containing your code and documentation and a prototype release package. Your project should take the form of a Node package, with all of the attendant items associated with that. The following three script commands should work in your package:
-- `npm install` - Install dependencies for your package.
-- `npm test` - Start app, check that everything can run, and then stop app.
-- `npm run` - Command to bring up all parts of the app/system’s server scripts.
 
-Your team is responsible for incorporating the following specifications and deliverables into your final project:
 
-1. Back-end specifications
-	1. API built on whatever framework you choose. You can build an API that interacts with other APIs as well in order to integrate them.
-	2. API root endpoint at `http://HOST/app/`.
-	2. Should create (if nonexistent) and interact with a database of users and interactions (this can be logs, even). These can be separate databases for different microservices or separate tables in one database. It is up to your team's decisions.
-	3. Database can be of any type you choose.
-2. Front-end specifications
-	1. Give users the ability to register an account, update their information, see their information somewhere, and delete their account.
-	2. Interactions with the front end should be logged in a database. 
-3. Database specifications
-	1. User database - registration details (username, email address, etc.)
-	2. Interaction database - details of user interactions (login history, access logs, etc.)
+
 4. Documentation
 	1. License documenation - Choose a license and include it in the repository just like we have been.
 	1. README.md file with basic description, installation requirements/instructions, dependency list, run instructions
@@ -55,7 +64,10 @@ Your team is responsible for incorporating the following specifications and deli
 5. Demo video to be presented in class on either 21 or 26 April
 6. Self/group evaluation (Individual group members: this is part of the final exam for the course.)
 
-## Acknowledgements
+
+
+ACKNOWLEDGMENTS
+----------------------------------------------------------------------
 - Team Polaris of COMP 426 (Spring 2022)
 - [Tar Heels at the Table](https://tarheels.live/tarheelsatthetable/)
 - UNC-CH Undergraduate Senate
