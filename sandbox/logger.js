@@ -5,33 +5,34 @@ dotEnv.config({ path: "./config.env" });
 // https://stackoverflow.com/questions/13941957/unable-to-save-logs-to-mongodb-database-for-winston-nodejs
 // https://stackoverflow.com/questions/55606854/how-to-use-express-winston-and-winston-mongodb-together
 
-const {createLogger, format, transports} = require('winston');
+const { createLogger, format, transports } = require('winston');
 require('winston-mongodb');  // expose `winston.transports.MongoDB`
 
 logger = createLogger({
-    transports:[
+    transports: [
 
-    // File transport
-    new transports.File({
-    filename: 'winstonLogs.log',
-    format:format.combine(
-        format.timestamp({format: 'MMM-DD-YYYY HH:mm:ss'}),
-        format.align(),
-        format.printf(info => `${info.level}: ${[info.timestamp]}: ${info.message}`),
-    )}),
-    new transports.MongoDB({
-        level:'info',
-        db: process.env.ATLAS_URI_LOGS,
-        options:{
-            useUnifiedTopology:true,
-        },
-        collection:'server_logs',
-        format:format.combine(
-            format.timestamp(),
-            //convert logs to a json format for mongodb
-            format.json()
-                )
-    })
+        // File transport
+        new transports.File({
+            filename: 'winstonLogs.log',
+            format: format.combine(
+                format.timestamp({ format: 'MMM-DD-YYYY HH:mm:ss' }),
+                format.align(),
+                format.printf(info => `${info.level}: ${[info.timestamp]}: ${info.message}`),
+            )
+        }),
+        new transports.MongoDB({
+            level: 'info',
+            db: process.env.ATLAS_URI_LOGS,
+            options: {
+                useUnifiedTopology: true,
+            },
+            collection: 'server_logs',
+            format: format.combine(
+                format.timestamp(),
+                //convert logs to a json format for mongodb
+                format.json()
+            )
+        })
     ]
 })
 
@@ -54,7 +55,7 @@ logger = createLogger({
 //     logger.log('info', "this is my message to the world");
 // }
 
-loggerFunction = function() {
+loggerFunction = function () {
     logger.log('info', "Running logs ");
 }
 
