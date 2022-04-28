@@ -1,0 +1,3 @@
+curl 'http://localhost:5001/app/clientLog/all'
+
+# TODO: remaining tests

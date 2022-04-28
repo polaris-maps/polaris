@@ -6,11 +6,13 @@ const bodyParser = require("body-parser");
 const dotEnv = require("dotenv");
 dotEnv.config({ path: "./config.env" });
 
-const apiLogger = require("./logger")
+const apiLogger = require("./apiLogger")
 
 const issueRoutes = require("./routes/issue")
 const userRoutes = require("./routes/user")
 const buildingRoutes = require("./routes/building")
+const apiLogRoutes = require("./routes/apiLog")
+const clientLogRoutes = require("./routes/clientLog")
 
 const port = process.env.PORT || 5001;
 const app = express();
@@ -29,6 +31,10 @@ app.use(cors());
 // Static directory path
 // app.use(express.static(path.join(__dirname, 'dist/polaris'))) // TODO: fix
 
+app.listen(port, () => {
+  console.log(`Server is running on port: ${port}`);
+});
+
 //// API routes
 // Root endpoint
 app.get("/app/", (req, res, next) => {
@@ -39,14 +45,12 @@ app.get("/app/", (req, res, next) => {
 // Logger
 app.use(apiLogger);
 
-// TODO: add routes here
+// Routes
 app.use(issueRoutes);
 app.use(userRoutes);
 app.use(buildingRoutes);
- 
-app.listen(port, () => {
-  console.log(`Server is running on port: ${port}`);
-});
+app.use(apiLogRoutes);
+app.use(clientLogRoutes);
 
 // app.get('*', (req, res) => {
 //   res.sendFile(

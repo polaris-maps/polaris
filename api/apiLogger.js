@@ -31,7 +31,7 @@ logger = expressWinston.logger({
             options: {
                 useUnifiedTopology: true,
             },
-            collection: 'access',
+            collection: 'api',
             format: winston.format.combine(
                 winston.format.timestamp(),
                 //convert logs to a json format for mongodb
@@ -46,5 +46,7 @@ logger = expressWinston.logger({
     colorize: false, // Color the text and status code, using the Express/morgan color palette (text: gray, status: default green, 3XX cyan, 4XX yellow, 5XX red).
     ignoreRoute: function (req, res) { return false; } // optional: allows to skip some log messages based on request and/or response
 })
+
+// TODO: Add error logger
 
 module.exports = logger
