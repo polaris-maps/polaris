@@ -8,7 +8,7 @@ See [this file](https://github.com/comp426-2022-spring/a99-polaris/blob/main/doc
     - Note: Please make sure to specify a different collection than 'issues', to ensure that the records are kept separate within the database.
 2. Create a corresponding JS file defining the appropriate database connection in the [api/connections folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/connections). Feel free to model it after the [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/connections/issue.js) file or the [user.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/connections/user.js) file in that folder.
 3. Create a corresponding JS file defining the API endpoints in the [api/routes folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/routes). Feel free to model it after the [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/routes/issue.js) file or the [user.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/routes/user.js) file in that folder.
-4. Give the API access to your routes by add the following line to [server.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/server.js) under the line reading `// TODO: add routes here`, replacing `<yourRoutes>` with the name of your routes:
+4. Give the API access to your routes by add the following line to [server.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/server.js) under the line reading `// Routes`, replacing `<yourRoutes>` with the name of your routes:
     ```
     app.use(<yourRoutes>)
     ```

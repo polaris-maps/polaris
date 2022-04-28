@@ -1,0 +1,3 @@
+curl 'http://localhost:5001/app/apiLog/all'
+
+curl 'http://localhost:5001/app/apiLog/626a5f93ce58082238910faf'
