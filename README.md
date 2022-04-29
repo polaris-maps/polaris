@@ -33,16 +33,9 @@ Rxjs								Version: 7.4.0
 Tslib								Version: 2.3.0
 Zone.Js								Version: 0.11.4
 
-## Technical Preferences (alphabetically listed)
-| Name            | Version |
-| ----------------- | ------------------- | ----------------------- | ------------------------- |
-| Elaine Dong       | yes (no preference) | yes (no preference)     | JavaScript, MongoDB |
-| Christine Mendoza | yes                 | yes (preferred)         | Python |
-| Joe Spencer       | yes (preferred)     | yes (would love to try) | Angular, TypeScript |
-| Robert Susewell   | yes (preferred)     | yes (open to)           | more on the analysis side of things |
-| Mia Ziade         | yes (preferred)     | yes (open to)           | statistical/visual softwares like R and power BI |
-
-
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 INSTRUCTIONS
 ----------------------------------------------------------------------
