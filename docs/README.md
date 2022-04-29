@@ -5,20 +5,33 @@ This contains information related to the Polaris Maps project:
 - Planning
 - Team Info
 
-# Polaris API Documentation
+**USER**
+1.  /app/user/all
 
-## Endpoints
+2.  /app/user/:id
 
-### /app/ (GET)
+3.  /app/user/add
 
-#### Request cURL
+4.  /app/user/update/:id
 
-```
-curl http://localhost:4200/app/
-```
+5.  /app/user/delete/:id
 
-#### Response body
 
-```
-{"message":"Your API works! (200)"}
-```
+**Issue**
+1.  /app/issue/all
+
+2.  /app/issue/:id
+
+3.  /app/issue/add
+
+4.  /app/issue/update/:id
+
+5.  /app/issue/delete/:id
+
+
+**Log**
+1.  /app/clientLog/all
+
+2.  /app/clientLog/:id
+
+3.  /app/clientLog/add
