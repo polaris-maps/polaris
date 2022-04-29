@@ -5,7 +5,7 @@ This contains information related to the Polaris Maps project:
 - Planning
 - Team Info
 
-# Coinserver API Documentation
+# Polaris API Documentation
 
 ## Endpoints
 
