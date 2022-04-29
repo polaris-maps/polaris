@@ -34,25 +34,15 @@ Tslib								Version: 2.3.0
 Zone.Js								Version: 0.11.4
 
 Dependency | Version 
---- | ---
 Bootstrap-Icons | 1.8.1 
---- | ---
 Node-fetch | 3.2.3
---- | ---
 Body-Parser | 1.19.2
---- | ---
 Cors | 2.8.5
---- | ---
 Dotenv | 16.0.0
---- | ---
 Express | 4.17.3
---- | ---
 Mongodb | 4.4.0
---- | ---
 Nodemon | 2.0.15
---- | ---
 @Angular/animations | 13.0.0
---- | ---
 @Angular/common | 13.0.0
 
 INSTRUCTIONS
