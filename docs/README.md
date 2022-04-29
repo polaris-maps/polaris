@@ -38,7 +38,7 @@ Connection: keep-alive
 Keep-Alive: timeout=5
 ```
 
-## User
+## User endpoints
 ### /app/user/all (GET)
 #### Request cURL
 
