@@ -41,7 +41,7 @@ Run `npm install` inside the `api` directory and the `client` directory. This pa
 
 *****IMPORTANT: You will need a MongoDB account for the following steps*****
 
-## Basic Connection Backend
+## Database Connection 
 1. Accept the invite and create a MongoDB account, if you have not already.
 2. Open the Polaris project. Under Security in the left sidebar, click on Database Access. Add yourself as a new database user with read/write access.
     - Since we likely will not be making multiple clusters, it would be best to select 'Read and write to any database' rather than 'Atlas admin' as one's role for now. 
@@ -51,7 +51,7 @@ Run `npm install` inside the `api` directory and the `client` directory. This pa
 6. Open a new terminal and `cd` into the `api` folder. Run `npm test`. If this works, you are all set!
     - Note: Error logging has been temporarily removed but will be restored in future code versions!
 
-**Client Connection**
+## Client Connection
 
 This project was generated with Angular CLI version 13.0.4.
 
