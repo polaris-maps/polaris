@@ -8,10 +8,10 @@ This contains information related to the Polaris Maps project:
 USER
 ----------------------------------------------------------------------
 1.  /app/user/all
-        curl http://localhost:5000/app/user/all
-        {{ firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },
-        { firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },}
-            HTTP/1.1 200 OK
+       - curl http://localhost:5000/app/user/all
+       - {{ firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },
+         { firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },}
+       -    HTTP/1.1 200 OK
             X-Powered-By: Express
             Content-Type: application/json; charset=utf-8
             Content-Length: 254
@@ -20,9 +20,9 @@ USER
             Connection: keep-alive
             Keep-Alive: timeout=5
 2.  /app/user/:id
-        curl http://localhost:5000/app/user/:id
-        { firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] }
-            HTTP/1.1 200 OK
+       - curl http://localhost:5000/app/user/:id
+       - { firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] }
+       -    HTTP/1.1 200 OK
             X-Powered-By: Express
             Content-Type: application/json; charset=utf-8
             Content-Length: 123
@@ -31,9 +31,9 @@ USER
             Connection: keep-alive
             Keep-Alive: timeout=5
 3.  /app/user/add
-        curl http://localhost:5000/app/user/add
-        {(200)}
-            HTTP/1.1 200 OK
+       -  curl http://localhost:5000/app/user/add
+       -  {(200)}
+       -    HTTP/1.1 200 OK
             X-Powered-By: Express
             Content-Type: application/json; charset=utf-8
             Content-Length: 3
@@ -42,9 +42,9 @@ USER
             Connection: keep-alive
             Keep-Alive: timeout=5
 4.  /app/user/update/:id
-        curl http://localhost:5000/app/user/update/:id
-        {200}
-            HTTP/1.1 200 OK
+       - curl http://localhost:5000/app/user/update/:id
+       - {200}
+       -    HTTP/1.1 200 OK
             X-Powered-By: Express
             Content-Type: application/json; charset=utf-8
             Content-Length: 3
@@ -53,9 +53,9 @@ USER
             Connection: keep-alive
             Keep-Alive: timeout=5
 5.  /app/user/delete/:id
-        curl http://localhost:5000/app/user/delete/:id
-        {200}
-            HTTP/1.1 200 OK
+       - curl http://localhost:5000/app/user/delete/:id
+       - {200}
+       -    HTTP/1.1 200 OK
             X-Powered-By: Express
             Content-Type: application/json; charset=utf-8
             Content-Length: 3
