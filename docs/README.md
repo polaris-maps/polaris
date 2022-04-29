@@ -5,33 +5,34 @@ This contains information related to the Polaris Maps project:
 - Planning
 - Team Info
 
-**USER**
-1.  /app/user/all
+# Polaris API Documentation
 
-2.  /app/user/:id
+## Endpoints
 
-3.  /app/user/add
+### /app/ (GET)
 
-4.  /app/user/update/:id
+#### Request cURL
 
-5.  /app/user/delete/:id
+```
+curl http://localhost:5001/app/
+```
 
+#### Response body
 
-**Issue**
-1.  /app/issue/all
+```
+{"message":"Your API works! (200)"}
+```
 
-2.  /app/issue/:id
+#### Response headers
 
-3.  /app/issue/add
-
-4.  /app/issue/update/:id
-
-5.  /app/issue/delete/:id
-
-
-**Log**
-1.  /app/clientLog/all
-
-2.  /app/clientLog/:id
-
-3.  /app/clientLog/add
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Fri, 29 Apr 2022 01:36:28 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
