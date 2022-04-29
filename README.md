@@ -34,7 +34,7 @@ Tslib								Version: 2.3.0
 Zone.Js								Version: 0.11.4
 
 
-INSTUCTIONS
+INSTRUCTIONS
 ----------------------------------------------------------------------
 
 Run `npm install` inside the `api` directory and the `client` directory. This package was built using Node.js. Other package dependency and version information can be found in `package.json`.
