@@ -5,6 +5,39 @@ This contains information related to the Polaris Maps project:
 - Planning
 - Team Info
 
+=======
+# Polaris API Documentation
+
+## Endpoints
+
+### /app/ (GET)
+
+#### Request cURL
+
+```
+curl http://localhost:5001/app/
+```
+
+#### Response body
+
+```
+{"message":"Your API works! (200)"}
+```
+
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Fri, 29 Apr 2022 01:36:28 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
+
 USER
 ----------------------------------------------------------------------
 1.  /app/user/all
@@ -63,23 +96,3 @@ USER
             Date: Thu, 28 Apr 2022 15:07:49 GMT
             Connection: keep-alive
             Keep-Alive: timeout=5
-
-
-**Issue**
-1.  /app/issue/all
-
-2.  /app/issue/:id
-
-3.  /app/issue/add
-
-4.  /app/issue/update/:id
-
-5.  /app/issue/delete/:id
-
-
-**Log**
-1.  /app/clientLog/all
-
-2.  /app/clientLog/:id
-
-3.  /app/clientLog/add
