@@ -7,31 +7,31 @@ Polaris is an open source project created to display an open source website for 
 
 DEPENDENCY LIST
 ----------------------------------------------------------------------
-
-
-Bootstrap-Icons						Version: 1.8.1
-Node-fetch							Version: 3.2.3
-Body-Parser							Version: 1.19.2
-Cors:								Version: 2.8.5
-Dotenv:								Version: 16.0.0
-Express:							Version: 4.17.3
-Mongodb:							Version: 4.4.0
-Nodemon:							Version: 2.0.15
-@Angular/animations 				Version: 13.0.0
-@Angular/common						Version: 13.0.0
-@Angular/compiler					Version: 13.0.0
-@Angular/core						Version: 13.0.0
-@Angular/forms						Version: 13.0.0
-@Angular/platform-browser			Version: 13.0.0
-@Angular/platform-browser-dynamic	Version: 13.0.0
-@Angular/router						Version: 13.0.0
-Bootstrap							Version: 5.1.3
-Jquery								Version: 3.6.0
-Leaflet								Version: 1.7.1
-Popper.js							Version: 1.16.1
-Rxjs								Version: 7.4.0
-Tslib								Version: 2.3.0
-Zone.Js								Version: 0.11.4
+| Package | Version |
+| -------------------------------------- | -------------- |
+| Bootstrap-Icons						 | Version: 1.8.1 |
+| Node-fetch							 | Version: 3.2.3 |
+| Body-Parser							 | Version: 1.19.2 |
+| Cors:								 | Version: 2.8.5 |
+| Dotenv:								 | Version: 16.0.0 |
+| Express:							 | Version: 4.17.3 |
+| Mongodb:							 | Version: 4.4.0 |
+| Nodemon:							 | Version: 2.0.15 |
+| @Angular/animations 				 | Version: 13.0.0 |
+| @Angular/common						 | Version: 13.0.0 |
+| @Angular/compiler					 | Version: 13.0.0 |
+| @Angular/core						 | Version: 13.0.0 |
+| @Angular/forms						 | Version: 13.0.0 |
+| @Angular/platform-browser			 | Version: 13.0.0 |
+| @Angular/platform-browser-dynamic	 | Version: 13.0.0 |
+| @Angular/router						 | Version: 13.0.0 |
+| Bootstrap							 | Version: 5.1.3 |
+| Jquery								 | Version: 3.6.0 |
+| Leaflet								 | Version: 1.7.1 |
+| Popper.js							 | Version: 1.16.1 |
+| Rxjs								 | Version: 7.4.0 |
+| Tslib								 | Version: 2.3.0 |
+| Zone.Js								 | Version: 0.11.4 |
 
 
 INSTUCTIONS
