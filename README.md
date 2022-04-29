@@ -33,9 +33,9 @@ Rxjs								Version: 7.4.0
 Tslib								Version: 2.3.0
 Zone.Js								Version: 0.11.4
 
-Attempt | #1 | #2 | #3
---- | --- | --- | --- 
-Seconds | 301 | 283 | 290
+Dependency | Version 
+--- | ---
+Seconds | 301 
 
 INSTRUCTIONS
 ----------------------------------------------------------------------
