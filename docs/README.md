@@ -38,20 +38,35 @@ Connection: keep-alive
 Keep-Alive: timeout=5
 ```
 
-USER
-----------------------------------------------------------------------
-1.  /app/user/all
-       - curl http://localhost:5000/app/user/all
-       - {{ firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },
-         { firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },}
-       -    HTTP/1.1 200 OK
-            X-Powered-By: Express
-            Content-Type: application/json; charset=utf-8
-            Content-Length: 254
-            ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
-            Date: Thu, 28 Apr 2022 15:07:49 GMT
-            Connection: keep-alive
-            Keep-Alive: timeout=5
+## USER
+### /app/user/all (GET)
+#### Request cURL
+
+```
+curl http://localhost:5000/app/user/all
+```
+
+#### Response body
+
+```
+{{ firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },
+{ firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },}
+```
+
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 254
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Thu, 28 Apr 2022 15:07:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
+
+
 2.  /app/user/:id
        - curl http://localhost:5000/app/user/:id
        - { firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] }
