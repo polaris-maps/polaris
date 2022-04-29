@@ -1,5 +1,5 @@
 <div class="container mt-3">
-    <form #report="ngForm" (ngSubmit)="submitReport(report.value)">
+    <form #report="ngForm" (ngSubmit)="submitInfo(report.value)">
         <div class="form-outline mb-4">
             <input type="email" id="emailBox" class="form-control" name="email" ngModel>
             <label class="form-label" for="emailBox">Email address</label>
@@ -11,7 +11,7 @@
         <button type="submit" class="btn btn-primary btn-block w-100">Sign in</button>
         <div class="text-center">
             <p>Not a member?
-                <a href="#!">Register</a>
+                <a routerLink="/register">Register</a>
             </p>
         </div>
     </form>

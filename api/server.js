@@ -6,25 +6,18 @@ const bodyParser = require("body-parser");
 const dotEnv = require("dotenv");
 dotEnv.config({ path: "./config.env" });
 
+const apiLogger = require("./apiLogger")
+
 const issueRoutes = require("./routes/issue")
 const userRoutes = require("./routes/user")
 const buildingRoutes = require("./routes/building")
+const apiLogRoutes = require("./routes/apiLog")
+const clientLogRoutes = require("./routes/clientLog")
+
 const port = process.env.PORT || 5001;
 const app = express();
 const HTTP_STATUS_OK = 200;
 const HTTP_STATUS_NOT_FOUND = 404;
-
-// default MongoDB connection; leave commented for now
-// const mongoose = require("mongoose");
-// mongoose
-//     .connect(process.env.ATLAS_URI)
-//     .then((x) => {
-//         console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
-//     })
-//     .catch((err) => {
-//         console.error('Error connecting to mongo', err.reason)
-//         console.error(err)
-//     })
 
 app.use(
   bodyParser.urlencoded({
@@ -34,12 +27,13 @@ app.use(
 app.use(express.json());
 app.use(cors());
 
-// TO-DO: Put logging middleware here (use process.env.ATLAS_URI_LOGS to connect)
-
-
 
 // Static directory path
 // app.use(express.static(path.join(__dirname, 'dist/polaris'))) // TODO: fix
+
+app.listen(port, () => {
+  console.log(`Server is running on port: ${port}`);
+});
 
 //// API routes
 // Root endpoint
@@ -48,14 +42,15 @@ app.get("/app/", (req, res, next) => {
   res.status(HTTP_STATUS_OK);
 });
 
-// TODO: add routes here
+// Logger
+app.use(apiLogger);
+
+// Routes
 app.use(issueRoutes);
 app.use(userRoutes);
 app.use(buildingRoutes);
- 
-app.listen(port, () => {
-  console.log(`Server is running on port: ${port}`);
-});
+app.use(apiLogRoutes);
+app.use(clientLogRoutes);
 
 // app.get('*', (req, res) => {
 //   res.sendFile(
@@ -64,7 +59,7 @@ app.listen(port, () => {
 // })
 
 //// Default response for any request not addressed by the defined endpoints ////
-app.use(function (req, res) {
+app.use(function (req, res, next) {
   res.json({ "message": "Endpoint not found. (404)" });
   res.status(HTTP_STATUS_NOT_FOUND);
 });
