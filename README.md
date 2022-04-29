@@ -34,7 +34,7 @@ Tslib								Version: 2.3.0
 Zone.Js								Version: 0.11.4
 
 ## Technical Preferences (alphabetically listed)
-| Member            | Front-End           | Back-End                | Specific Experience/Notes |
+| Name            | Version |
 | ----------------- | ------------------- | ----------------------- | ------------------------- |
 | Elaine Dong       | yes (no preference) | yes (no preference)     | JavaScript, MongoDB |
 | Christine Mendoza | yes                 | yes (preferred)         | Python |
