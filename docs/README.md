@@ -438,3 +438,80 @@ Date: Thu, 28 Apr 2022 15:07:49 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 ```
+
+## **ClientLog**
+
+
+#### /app/clientLog/all
+#### Request cURL
+
+```
+curl http://localhost:5000/app/clientLog/all
+
+```
+#### Response body
+
+```
+[{"_id":"626a6e60fcb1207d51060c59","level":2,"additional":["header","constructor"],"message":"Render header","timestamp":"2022-04-28T10:37:20.428Z","fileName":"main.js","lineNumber":431,"columnNumber":21,"levelName":"INFO","__v":0},{"_id":"626a6e60fcb1207d51060c5b","level":2,"additional":["footer","constructor"],"message":"Render footer","timestamp":"2022-04-28T10:37:20.434Z","fileName":"main.js","lineNumber":385,"columnNumber":21,"levelName":"INFO","__v":0},{"_id":"626a6e60fcb1207d51060c5d","level":2,"additional":["home","constructor"],"message":"Render home page","timestamp":"2022-04-28T10:37:20.444Z","fileName":"main.js","lineNumber":643,"columnNumber":21,"levelName":"INFO","__v":0}]
+```
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 695
+ETag: W/"1272-4gWT2RvtevG6+kKnCSiULwPtxVs"
+Date: Fri, 29 Apr 2022 02:23:28 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
+#### /app/clientLog/:id
+#### Request cURL
+
+```
+curl http://localhost:5000/app/clientLog/:id
+
+```
+#### Response body
+
+```
+
+```
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Thu, 28 Apr 2022 15:07:49 GMT
+Connection: keep-alive
+
+```
+#### /app/clientLog/add
+#### Request cURL
+
+```
+curl http://localhost:5000/app/clientLog/add
+
+```
+#### Response body
+
+```
+{200}
+```
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Thu, 28 Apr 2022 15:07:49 GMT
+Connection: keep-alive
+
+```
