@@ -319,3 +319,122 @@ Date: Fri, 29 Apr 2022 03:04:47 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 ```
+
+## **Issue**
+#### /app/issue/all
+#### Request cURL
+
+```
+    curl http://localhost:5000/app/issue/all
+```
+#### Response body
+
+```
+       {{ location: String, latitude: Number, longitude: Number, description: String, status: String, datetimeOpen: Number, datetimeClosed: Number, datetimePermanent: Number, votes: Number}, { location: String, latitude: Number, longitude: Number, description: String, status: String, datetimeOpen: Number, datetimeClosed: Number, datetimePermanent: Number, votes: Number}}
+```
+#### Response headers
+
+```
+        HTTP/1.1 200 OK
+        X-Powered-By: Express
+        Content-Type: application/json; charset=utf-8
+        Content-Length: 366
+        ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+        Date: Thu, 28 Apr 2022 15:07:49 GMT
+        Connection: keep-alive
+        Keep-Alive: timeout=5
+```
+
+#### /app/issue/:id
+#### Request cURL
+
+```
+ curl http://localhost:5000/app/issue/:id
+```
+#### Response body
+
+```
+ { location: String, latitude: Number, longitude: Number, description: String, status: String, datetimeOpen: Number, datetimeClosed: Number, datetimePermanent: Number, votes: Number}
+```
+#### Response headers
+
+```
+    HTTP/1.1 200 OK
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 183
+    ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+    Date: Thu, 28 Apr 2022 15:07:49 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5
+```
+
+#### /app/issue/add
+#### Request cURL
+
+```
+curl http://localhost:5000/app/issue/add
+```
+#### Response body
+
+```
+{(200)}
+```
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Thu, 28 Apr 2022 15:07:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
+#### /app/issue/update/:id
+#### Request cURL
+
+```
+curl http://localhost:5000/app/issue/update:id
+```
+#### Response body
+
+```
+ {(200)}
+```
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Thu, 28 Apr 2022 15:07:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
+#### /app/issue/delete/:id
+#### Request cURL
+
+```
+curl http://localhost:5000/app/issue/delete:id
+```
+#### Response body
+
+```
+ {(200)}
+```
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Thu, 28 Apr 2022 15:07:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
