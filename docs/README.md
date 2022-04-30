@@ -515,3 +515,58 @@ Date: Thu, 28 Apr 2022 15:07:49 GMT
 Connection: keep-alive
 
 ```
+
+#### /app/apiLog/all
+#### Request cURL
+
+```
+curl http://localhost:5000/app/apiLog/all
+
+```
+#### Response body
+
+```
+{"_id":"626b460a27457008641efd74","timestamp":1651197450627,"level":"info","message":"HTTP GET /app/user/all","meta":{"req":{"url":"/app/user/all","headers":{"user-agent":"Mozilla/5.0      
+ (Windows NT….
+
+
+```
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 1616
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Thu, 28 Apr 2022 15:07:49 GMT
+Connection: keep-alive
+
+```
+
+#### /app/apiLog/:id
+#### Request cURL
+
+```
+curl http://localhost:5000/app/apiLog/:id
+
+```
+#### Response body
+
+```
+{"_id":"626b460a27457008641efd74","timestamp":1651197450627,"level":"info","message":"HTTP GET /app/user/all","meta":{"req":{"url":"/app/user/all","headers":{"user-agent":"Mozilla/5.0      
+ (Windows NT….
+
+```
+#### Response headers
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 503
+ETag: W/"23-KNmhzXgQhtEE5ovS3fuLixylNK0"
+Date: Thu, 28 Apr 2022 15:07:49 GMT
+Connection: keep-alive
+
+```
