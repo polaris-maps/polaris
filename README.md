@@ -48,7 +48,7 @@ INSTRUCTIONS
 3. Run `npm run` inside the `api` directory and the `client` directory to start the app in localhost. The api should run on http://localhost:5001, while the client should come up on http://localhost:4200.
 
 
-POLARIS API Documentation
+POLARIS API DOCUMENTATION
 ----------------------------------------------------------------------
 Full API documentation can be found in [the README of the `docs` directory](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/README.md#polaris-api-documentation).
 
@@ -57,9 +57,7 @@ DEVELOPMENT TEAM
 ----------------------------------------------------------------------
 
 
-The Polaris Project was created by Team Polaris as our final project for COMP 426: Modern Web Programming at UNC-CH. Below is the link to the roles and duties of each person who contributed.
-
-https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/team.md
+The Polaris Project was created by Team Polaris as our final project for COMP 426: Modern Web Programming at UNC-CH. The roles and duties of each person who contributed is detailed [in team.md in the docs](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/team.md).
 
 
 ACKNOWLEDGMENTS
