@@ -2,7 +2,11 @@ INTRODUCTION
 ----------------------------------------------------------------------
 
 
-Polaris is an open source project created to display an open source website for Univeristy of North Carolina at Chapel Hill students and employees enabling more accessibilty options for the University. Polaris is able to display potential and current accessbility hazards through the interface and the use of its Users. Through interaction with the website users will have the ability to notify other students and faculty of disruptions of the campus such as elevator being down in one of the buildings. Users will also have the ability to favorite certain locations and upvote another's person notification so that popular places would be more well known about current issues. There will also be feedback page to notify our team of issues with the website. Below will be the instructions and contributors. 
+Polaris is an open source project created to display an open source website for University of North Carolina at Chapel Hill students and employees detailing accessible walking paths within the University. Polaris lists current accessibility hazards and allows users to post issues to notify other students and faculty of disruptions such as a broken elevator. On the about page is a form to submit feedback. 
+
+In the future, users will have the ability to use the map to navigate around inaccessible paths, filter by favorited locations, and upvote/downvote others' notifications.
+
+This project was built with a MEAN stack (MongoDB, Express, Angular, and Node.js). Other package dependency and version information can be found in `package.json` or in the dependency list below.
 
 
 DEPENDENCY LIST
@@ -37,19 +41,9 @@ Zone.js | 0.11.4
 INSTRUCTIONS
 ----------------------------------------------------------------------
 
-Run `npm install` inside the `api` directory and the `client` directory. This package was built using Node.js. Other package dependency and version information can be found in `package.json` or above.
-
-*****IMPORTANT: You will need a MongoDB account for the following steps*****
-
-## Database Connection 
-1. Accept the invite and create a MongoDB account, if you have not already.
-2. Open the Polaris project. Under Security in the left sidebar, click on Database Access. Add yourself as a new database user with read/write access.
-    - Since we likely will not be making multiple clusters, it would be best to select 'Read and write to any database' rather than 'Atlas admin' as one's role for now. 
-3. Return to Database under Deployment and click on the "Connect" button. Click on "Connect your application," then select your driver (Node.js) and version (4.0 or later).
-4. Copy the provided connection string and paste it at the end of the lines beginning with `ATLAS_URI` in the provided `config_template.env` to set the relevant `ATLAS_URI` environment variables. Rename `config_template.env` as `config.env`.
-5. Make the needed edits to the connection strings, i.e., replace `<user>` with the username for your database user (not your MongoDB account), `<password>` with the password for your database user, and `myFirstDatabase` with the name of the database you are connecting to.
-6. Open a new terminal and `cd` into the `api` folder. Run `npm test`. If this works, you are all set!
-    - Note: Error logging has been temporarily removed but will be restored in future code versions!
+1. Ask one of the project admins for a config.env file to be placed directly in the [api directory](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api).
+2. Run `npm install` inside the `api` directory and the `client` directory.
+3. Run `npm run` inside the `api` directory and the `client` directory to start the app in localhost. The api should run on http://localhost:5001, while the client should come up on http://localhost:4200.
 
 
 POLARIS API Documentation
