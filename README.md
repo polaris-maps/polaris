@@ -6,6 +6,8 @@ Polaris is an open source project created to display an open source website for 
 
 In the future, users will have the ability to use the map to navigate around inaccessible paths, filter by favorited locations, and upvote/downvote others' notifications.
 
+This app has not been deployed due to lack of functionality for user authentication, although endpoints and initial pages exist for users to register an account, update their information, see their information somewhere, and delete their account.
+
 This project was built with a MEAN stack (MongoDB, Express, Angular, and Node.js). Other package dependency and version information can be found in `package.json` or in the dependency list below.
 
 
@@ -48,7 +50,7 @@ INSTRUCTIONS
 
 POLARIS API Documentation
 ----------------------------------------------------------------------
-Full API documentation can be found in the `docs` directory.
+Full API documentation can be found in [the README of the `docs` directory](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/README.md#polaris-api-documentation).
 
 
 DEVELOPMENT TEAM
@@ -65,6 +67,6 @@ ACKNOWLEDGMENTS
 
 
 - Team Polaris of COMP 426 (Spring 2022)
+- Professor John D. Martin III, Dr. Gary Bishop, and Dr. Jennifer Diliberto of UNC-CH
 - [Tar Heels at the Table](https://tarheels.live/tarheelsatthetable/)
 - UNC-CH Undergraduate Senate
-- Professor John D. Martin III, Dr. Gary Bishop, and Dr. Jennifer Diliberto of UNC-CH
