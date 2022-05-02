@@ -45,7 +45,7 @@ INSTRUCTIONS
 
 1. Ask one of the project admins for a config.env file to be placed directly in the [api directory](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api).
 2. Run `npm install` inside the `api` directory and the `client` directory.
-3. Run `npm run` inside the `api` directory and the `client` directory to start the app in localhost. The api should run on http://localhost:5001, while the client should come up on http://localhost:4200.
+3. Run `npm start` inside the `api` directory and the `client` directory to start the app in localhost. The api should run on http://localhost:5001, while the client should come up on http://localhost:4200.
 
 
 POLARIS API DOCUMENTATION
