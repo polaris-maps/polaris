@@ -1,3 +1,6 @@
+**NOTE: This repository is no longer updated. Please see https://github.com/polaris-maps for up-to-date code.**
+
+
 INTRODUCTION
 ----------------------------------------------------------------------
 
